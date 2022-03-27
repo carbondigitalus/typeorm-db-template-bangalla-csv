@@ -13,14 +13,14 @@ import {
     MinLength,
     Min
 } from 'class-validator';
-import { Column, PrimaryGeneratedColumn, Entity } from 'typeorm';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 import 'reflect-metadata';
 
 // Custom Modules
 import { PriceCheck } from '../../enums';
 
-@Entity()
-export default class BangallaCSVTemplate {
+@Entity('bangalla_product_list')
+export default class BangallaCSVTemplate extends BaseEntity {
     // COLUMNS
     @PrimaryGeneratedColumn('uuid')
     @IsNotEmpty()
