@@ -1,5 +1,5 @@
 {
-    "name": "typeorm-db-template-shopify-csv",
+    "name": "typeorm-db-template-bangalla-csv",
     "version": "1.0.0",
     "description": "TypeORM based tool for loading products into a properly formatted MySQL database template. Once products are imported, we can export the database into a CSV file for manual upload to Shopify.",
     "main": "app.ts",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fortembr/typeorm-db-template-shopify-csv.git"
+        "url": "git+https://github.com/fortembr/typeorm-db-template-bangalla-csv.git"
     },
     "keywords": [
         "database",
@@ -31,9 +31,9 @@
     "author": "Fort Embr",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/fortembr/typeorm-db-template-shopify-csv/issues"
+        "url": "https://github.com/fortembr/typeorm-db-template-bangalla-csv/issues"
     },
-    "homepage": "https://github.com/fortembr/typeorm-db-template-shopify-csv#readme",
+    "homepage": "https://github.com/fortembr/typeorm-db-template-bangalla-csv#readme",
     "devDependencies": {
         "@types/node": "^17.0.23",
         "dotenv": "^16.0.0",
